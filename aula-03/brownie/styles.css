@@ -1,0 +1,262 @@
+body{
+    background-color: #FFFFFF;
+    font-family:"Roboto", sans-serif;
+    margin: 0px;
+}
+
+.receita{
+    background-color: #F0F0F0;
+    width: 916px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.container{
+    width: 916px;
+    height: 100%;
+    margin-bottom: 63px;
+}
+
+.box{
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: #ffffff;
+    width: 800px;
+    height: 574px;
+    margin: 24px 59px 0px 59px;
+}
+
+h1{
+    color: #FF6A28;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px 0 2px 27px;
+    margin: 0;
+}
+
+h2{
+    color: #61656D;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 0 14px 27px;
+}
+
+.img-center{
+    display: block;
+    margin: 0 auto;
+    width: 745px;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 745px;
+    height: 85px;
+    margin: 10px 27px 37px 27px;
+    gap: 9px;
+}
+
+.info-item{
+    background-color: #F0F0F0; 
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 118px;
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.info-author{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 238px;
+    height: 85px;
+    gap: 9px;
+}
+
+.img-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.img-author{
+    width: 60px;
+}
+
+.label{
+    font-size: 14px;
+    text-align: center;
+    color: #555;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.value{
+    font-size: 14px;
+    text-align: center;
+    color: #ff6600;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.signature{
+    color: #ff6600;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0;
+}
+
+.member{
+    color: #61656D;
+    font-weight: 400;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+}
+
+.box2{
+    background-color:  #ffffff; 
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 798px;
+    height: 335px;
+    margin: 37px 59px 16px 59px;
+    padding: 0;
+}
+
+.ing-container{
+    display: flex;
+    flex-direction: column;
+    width: 798px;
+    height: 335px;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.ing-header{
+    gap: 8px;
+    display: flex;
+    padding: 0;
+    margin: 0px auto;
+}
+
+.img-icon2{
+    width: 24px;
+    height: 24px;
+}
+
+.ing-header h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FF6A28;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    padding: 12px 0 30px 50px;
+    font-weight: 400;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.80;
+}
+
+.box3{
+    background-color:  #ffffff; 
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 798px;
+    height: 405px;
+    margin: 16px 59px;
+}
+
+.prep-container{
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.prep-header{
+    gap: 8px;
+    display: flex;
+    padding: 20px 290px 12px 290px;
+    margin: 0;
+}
+
+.img-icon3{
+    width: 22px;
+    height: 22px;
+}
+
+.prep-header h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FF6A28;
+    margin: 0;
+}
+
+ol{
+    padding-left: 50px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 2.3;
+}
+
+.box4{
+    background-color:  #ffffff; 
+    box-sizing: border-box;
+    border-radius: 6px;
+    display: flex;
+    width: 798px;
+    height: 356px;
+    margin: 16px 59px;
+}
+
+.adinfo-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 21px;
+    align-items: center;
+    font-size: 14px;
+}
+
+.adinfo-header{
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 754px;
+    height: 34px;
+}
+
+.adinfo-header h3{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #61656D;
+}
+
+.description{
+    color: #61656D;
+    margin: 16px 33px 0px 22px;
+    font-size: 14px;
+    line-height: 1.3;
+    text-align: justify;
+}
